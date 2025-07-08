@@ -1,0 +1,49 @@
+/******************************************************************************
+TIP: Menu theme displays your links with images from settings.json
+
+Edit / copy or create your own CSS file in public/styles/themes
+Select your chosen CSS by adding the theme name (e.g. menu) in settings.json
+******************************************************************************/
+
+:root {
+  --color-bg: #000000;
+  --color-text-main: var(--color-text-main);
+}
+body {
+/*   background-image: url("https://cdn.glitch.global/4f2e7bb2-e210-4bc4-89be-ecfd7913403e/SELLO_ASOC_TRANSP2.png?v=1708010726063");
+    background-size:     contain;        
+    background-repeat:   no-repeat;
+    background-position: center center;  */
+}
+
+ul.link-list li a {
+  display: flex;
+}
+ul.link-list li a:link,
+ul.link-list li a:visited {
+  background-color: var(--color-primary);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-family: 'cityburn', sans-serif;
+  font-size: 1.15em;
+/*   font-weight: bold; */
+  min-height: 4.5rem;
+}
+ul.link-list li a span {
+  text-align: justify;
+  line-height: 1.2em;
+  flex-grow: 1;
+  text-align: center;
+}
+ul.link-list li a:hover, ul.link-list li a:focus {
+  background-color: var(--color-bg);
+  color: white;
+}
+ul.link-list li a img {
+  border-radius: 0.2rem;
+  width: 3rem;
+  overflow: visible;
+}
+.social-profile-icon path:hover, .social-profile-icon path:focus {
+  fill: #ffffff;
+}

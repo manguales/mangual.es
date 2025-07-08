@@ -1,0 +1,78 @@
+{
+  "metaTitle": "Manguales",
+  "metaDescription": "Manguales Extreme Metal Union Barcelona",
+  "name": "Asociación de Metal Extremo Manguales",
+  "theme": "menu",
+  "avatarImage": "https://cdn.glitch.global/4f2e7bb2-e210-4bc4-89be-ecfd7913403e/MANGUALES_SVG5.jpg?v=1708014156801",
+  "links": [
+    {
+      "url": "https://shop.eventix.io/b2ce7d2b-8c0a-11ef-a9cb-7e126431635e/events?shop_code=46tqrrfs",
+      "text": "Entradas para los próximos eventos",
+      "img": "https://cdn.glitch.global/092f9950-8152-46c1-b2b0-b559a1c84ba3/8f5d0787ed9af05113eb41afb36c17bd-double-speakers-icon.png?v=1705356231424",
+      "altText": "Eventos metal extremo Manguales"
+    },
+    {
+      "url": "https://forms.gle/FEnfsHJaaby3qBZaA",
+      "text": "¿Quieres tocar en un concierto de Manguales?",
+      "img": "https://cdn-icons-png.flaticon.com/512/1598/1598677.png",
+      "altText": "Manguales en Instagram"
+    },
+    {
+      "url": "https://cdn.glitch.global/4f2e7bb2-e210-4bc4-89be-ecfd7913403e/CARTA_PRINCIPIOS_11MARZO.pdf?v=1710278950384",
+      "text": "Principios de la asociación",
+      "img": "https://cdn-icons-png.flaticon.com/256/3345/3345349.png",
+      "altText": "Principios de Manguales EMU"
+    },
+    {
+      "url": "https://www.instagram.com/mangualesextreme/",
+      "text": "Síguenos en Instagram",
+      "img": "https://cdn.glitch.global/092f9950-8152-46c1-b2b0-b559a1c84ba3/pngtree-instagram-icon-instagram-logo-png-image_3584852.png?v=1697315535781",
+      "altText": "Manguales en Instagram"
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?id=61550296571768",
+      "text": "Síguenos en Facebook",
+      "img": "https://cdn.glitch.global/092f9950-8152-46c1-b2b0-b559a1c84ba3/2021_Facebook_icon.svg.png?v=1697315585172",
+      "altText": "Manguales en Facebook"
+    },
+    {
+      "url": "https://www.youtube.com/@Manguales",
+      "text": "Videos de actuaciones",
+      "img": "https://cdn.glitch.global/092f9950-8152-46c1-b2b0-b559a1c84ba3/free-youtube-logo-icon-2431-thumb.png?v=1697315620707",
+      "altText": "Manguales en Youtube"
+    }
+  ],
+  "social": {
+    "glitch": "",
+    "arena": "",
+    "bandcamp": "",
+    "cohost": "",
+    "dev": "",
+    "facebook": "",
+    "github": "",
+    "gitlab": "",
+    "hashnode": "",
+    "instagram": "",
+    "keybase": "",
+    "kofi": "",
+    "letterboxd": "",
+    "linkedin": "",
+    "mastodon": "",
+    "medium": "",
+    "onlyfans": "",
+    "patreon": "",
+    "pinboard": "",
+    "pinterest": "",
+    "podcast": "",
+    "soundcloud": "",
+    "spotify": "",
+    "stackoverflow": "",
+    "substack": "",
+    "twitter": "",
+    "twitch": "",
+    "tiktok": "",
+    "tumblr": "",
+    "youtube": "",
+    "email": "manguales.asoc@gmail.com"
+  }
+}

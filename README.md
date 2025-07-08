@@ -1,5 +1,3 @@
-# glitch-static-site-to-fastly
+# mangual.es webpage
 
-A repo for deploying your static Glitch projects to Fastly Compute
-
-**CHECK OUT [MIGRATE.md](MIGRATE.md) for steps**
+Customized glitch bio webpage for https://mangual.es
