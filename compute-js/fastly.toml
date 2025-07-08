@@ -1,0 +1,26 @@
+# This file describes a Fastly Compute package. To learn more visit:
+# https://www.fastly.com/documentation/reference/compute/fastly-toml
+
+authors = ["Keith Kurson <keith@glitch.com>"]
+description = "Manguales Extreme Metal Union"
+language = "javascript"
+manifest_version = 3
+name = "manguales backend"
+service_id = "sDyJ9Aft7NHlA25xxGXmB7"
+
+[local_server]
+
+  [local_server.kv_stores]
+
+    [local_server.kv_stores.website-content]
+      file = "./static-publisher/kvstore.json"
+      format = "json"
+
+[scripts]
+  build = "npm run build"
+
+[setup]
+
+  [setup.kv_stores]
+
+    [setup.kv_stores.website-content]

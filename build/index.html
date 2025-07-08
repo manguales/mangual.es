@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favi64.ico" />
+    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+    <!--PWA requirements-->
+    <meta name="theme-color" content="#000000" />
+    <link
+      rel="apple-touch-icon"
+      href="favi114.ico"
+    />
+
+    <!-- PWA setup - update public/sw.js if you add your own assets like a new .css file -->
+    <link rel="manifest" href="manifest.json" />
+    <script>
+      if (location.protocol == "http:") location.protocol = "https:";
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("sw.js")
+          .then((reg) => console.log("Service Worker registered", reg))
+          .catch((err) =>
+            console.error("Service Worker **not** registered", err)
+          );
+      } else {
+        console.warn("Service Worker not supported in this browser");
+      }
+    </script>
+    
+    <!-- templates/head.js will fill in here -->
+    <script type="module" crossorigin src="/assets/index-6f651029.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <div id="content" class="content">
+          <!-- scripts/render.js determines what fills in here -->
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
